@@ -35,6 +35,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		main_text.setOnClickListener(this);
 		main_but.setOnClickListener(this);
 		initDiaog();
+		
 	}
 
 	public void onClick(View v) {
