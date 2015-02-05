@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="60dip"
+        android:background="@drawable/main_text"
+        android:layout_height="60dip"  />
+
+    <Button
+        android:id="@+id/main_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" 
+        android:padding="20dip"
+        android:background="@drawable/main_but"
+        android:text="扫一扫"
+        android:textSize="22sp" />
+
+</RelativeLayout>
